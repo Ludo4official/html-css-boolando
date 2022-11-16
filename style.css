@@ -5,20 +5,6 @@
     font-family:'Roboto', sans-serif;
 }
 
-/* 
-#ff6900 arancione
-
-#1a1a1a nero
-
-
-#fffefe bianco
-
-
-#ff0000 rosso
-
-
-#008000 verde */
-
 .nav {
     background-color:#ff6900;
     min-height: 80px;
@@ -52,7 +38,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .boolean-logo {
@@ -90,6 +75,52 @@ i {
     padding-right: 5px;
 }
 
+.special-discount {
+    position: absolute;
+    top: 500px;
+    left: 0;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.eco {
+    position: absolute;
+    top: 500px;
+    left: 55px;
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+.love {
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    background-color: white;
+}
+
+.lovebis:hover {
+    color: #ff6900;
+    background-color: black;
+
+}
+
+#img1:hover {
+    background-image: url(../html-css-boolando/1b.webp);
+    /* opacity: 0.5; */
+}
+
 .price {
     text-decoration: line-through;
 }
@@ -102,6 +133,7 @@ i {
 .img-size {
     width: calc(100% / 3);
     min-height: 700px;
+    position: relative;
 }
 
 .footer {
