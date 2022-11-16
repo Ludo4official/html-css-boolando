@@ -116,9 +116,19 @@ i {
 
 }
 
-#img1:hover {
-    background-image: url(../html-css-boolando/1b.webp);
-    /* opacity: 0.5; */
+.img-change:hover .first-img {
+    display: none;
+}
+
+.img-change:hover .second-img{
+    display: block;
+}
+
+.first-img {
+    display: block;
+}
+.second-img {
+    display: none;
 }
 
 .price {
