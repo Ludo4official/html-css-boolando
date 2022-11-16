@@ -2,4 +2,139 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+/* 
+#ff6900 arancione
+
+#1a1a1a nero
+
+
+#fffefe bianco
+
+
+#ff0000 rosso
+
+
+#008000 verde */
+
+.nav {
+    background-color:#ff6900;
+    min-height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 30;
+    box-shadow: 0px 3px 20px 0px black;
+    color: #fffefe;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+} 
+
+.customer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20%;
+}
+
+.logo {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boolean-logo {
+    width: 200px;
+}
+
+.user {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+i {
+    padding: 5px;
+}
+
+.main {
+    min-height: 1400px;
+    padding-top: 150px;
+}
+
+.img-clothes {
+    width: 380px;
+}
+
+.merch {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sale  {
+    color: red;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.price {
+    text-decoration: line-through;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-size {
+    width: calc(100% / 3);
+    min-height: 700px;
+}
+
+.footer {
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.policy {
+    padding-top: 15px;
+}
+
+.info-footer {
+    font-size: 10px;
+    padding-right: 10px;
+}
+
+.flex-footer {
+    display: flex;
+}
+
+.content1 {
+    width: 50%;
+}
+
+.content2 {
+    width: 50%;
+}
+
+.social {
+    padding-top: 15px;
+    display: flex;
+    justify-content: flex-end;
 }
